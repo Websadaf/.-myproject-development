@@ -1,0 +1,31 @@
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.Book{
+    width: 220px;
+    border: 1px solid rgb(239, 238, 238);
+    padding: 10px;
+    height: 80%;
+    transition: all 0.5s;
+}
+.Book img{
+    width: 100%;
+    height: 200px;
+    
+}
+.Book:hover{
+    /* transform: scale(1.1); */
+        box-shadow: 5px 5px 5px rgb(214, 213, 213);
+
+}
+.Book span{
+    color: chocolate;
+}
+.Book p span{
+    color: chocolate;
+}
