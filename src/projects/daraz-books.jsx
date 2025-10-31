@@ -361,7 +361,7 @@ disc:"238 sold",
     
 
 
-function Darazbooks(meribook) {
+function Darazbooks() {
   return (
     <div className='books'>{
       booksData.map((meribook)=>{

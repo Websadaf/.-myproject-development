@@ -1,0 +1,39 @@
+.btn{
+    display: flex;
+ 
+padding: 12px;
+border: none;
+color: #eee;
+font-family: fantasy;
+font-size: 16px;
+background-color: blue;
+border-radius: 5px;
+    
+}
+.btn:hover{
+    background-color: rgb(84, 84, 243);
+}
+.rap p{
+    display: flex;
+    align-items: flex-end;
+    height: 90px;
+    justify-content: start;    
+    
+}
+.pop{
+    background-color: #eee;
+    height: 100vh;
+
+    position: fixed;
+}
+.rap button{
+    display: flex;
+    justify-content: end;
+    border:none;
+    height: 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
