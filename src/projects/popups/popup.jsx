@@ -5,6 +5,7 @@ function popup() {
     const [text, setText] = useState(false)
     
     
+    
   return (
     <div>
       <button className='btn' onClick={()=>setText(true)}>Open PopUP</button>
